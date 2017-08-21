@@ -1,7 +1,7 @@
 {
   "name": "maybe",
   "version": "1.0.0",
-  "description": "A simple Maybe implementation.",
+  "description": "A simple JavaScript Maybe implementation.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
