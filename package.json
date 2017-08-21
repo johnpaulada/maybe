@@ -1,0 +1,15 @@
+{
+  "name": "maybe",
+  "version": "1.0.0",
+  "description": "A simple Maybe implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "maybe",
+    "monad"
+  ],
+  "author": "John Paul Ada",
+  "license": "MIT"
+}
