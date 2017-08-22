@@ -1,8 +1,12 @@
 {
-  "name": "maybe",
-  "version": "1.0.0",
+  "name": "@johnpaulada/maybe",
+  "version": "2.0.0",
   "description": "A simple Maybe implementation in JavaScript.",
   "main": "index.js",
+  "repository": {
+    "type": "Github",
+    "url": "https://github.com/johnpaulada/maybe"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +15,6 @@
     "monad"
   ],
   "author": "John Paul Ada",
+  "private": false,
   "license": "MIT"
 }
