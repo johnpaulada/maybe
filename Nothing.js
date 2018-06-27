@@ -1,10 +1,10 @@
 const Nothing = () => ({
   value: null,
-  reduce: f => null,
-  inspect: f => console.log(`Nothing()`),
-  map: f => Nothing(), 
-  ap: f => Nothing(),
-  chain: f => Nothing()
+  reduce: _ => null,
+  inspect: _ => console.log(`Nothing`),
+  map: _ => Nothing(), 
+  ap: _ => Nothing(),
+  chain: _ => Nothing()
 })
 
 export default Nothing

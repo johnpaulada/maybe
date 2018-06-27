@@ -4,7 +4,10 @@ import Nothing from './Nothing'
 const Maybe = {
   Just,
   Nothing,
-  of: x => x ? Just(x) : Nothing()
+  of: x => 
+    typeof x !== 'undefined' && n !== null
+      ? Just(x)
+      : Nothing()
 }
 
 export default Maybe

@@ -26,11 +26,33 @@ On the browser:
 <script src="https://cdn.jsdelivr.net/npm/@johnpaulada/maybe@2.1.0/index.min.js"></script>
 ```
 
+### Using the library
+To create a Maybe (Just/Nothing) use the `of()` method like this:
+
+```javascript
+const value = Maybe.of(1) // Just(1)
+```
+
+To work with the value, you can `map()` for example:
+
+```javascript
+const plusFive = value.map(x => x + 5) // Just(6)
+```
+
+To get the value outside of Maybe, use the `reduce()` method:
+
+```javascript
+const sixValue = plusFive.reduce(x => x) // 6
+```
+
 ## Development
 1. Install [Yarn](https://yarnpkg.com).
 2. Install Rollup.
 2. Run `yarn` on the terminal to install dependencies.
 3. Running `rollup -c` will build the library.
+
+## Roadmap
+1. Lazy Evaluation
 
 ## License
 MIT
