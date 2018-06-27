@@ -1,6 +1,6 @@
 {
   "name": "@johnpaulada/maybe",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A simple Maybe implementation in JavaScript.",
   "main": "index.js",
   "module": "index.es.js",
