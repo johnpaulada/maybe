@@ -13,7 +13,7 @@ export default {
       format: 'es'
     },
     {
-      file: 'index.min.js',
+      file: 'maybe.min.js',
       format: 'iife',
       name: 'Maybe'
     }

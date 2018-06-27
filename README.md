@@ -23,7 +23,7 @@ import Maybe from '@johnpaulada/maybe'
 
 On the browser:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@johnpaulada/maybe@2.1.1/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@johnpaulada/maybe@2.1.2/maybe.min.js"></script>
 ```
 
 ### Using the library
