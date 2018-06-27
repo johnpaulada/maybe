@@ -16,5 +16,11 @@
   ],
   "author": "John Paul Ada",
   "private": false,
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "rollup-plugin-babel": "^3.0.5",
+    "rollup-plugin-uglify": "^4.0.0"
+  }
 }

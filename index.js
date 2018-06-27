@@ -1,3 +1,1 @@
-import Maybe from './Maybe'
-export default Maybe
-module.exports = Maybe
+!function(n,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):n.Maybe=t()}(this,function(){"use strict";var t=function t(e){return{value:e,reduce:function(n){return n(e)},inspect:function(n){return console.log("Just("+n(e)+")")},map:function(n){return t(n(e))},ap:function(n){return t(n.reduce(function(n){return n})(e))},chain:function(n){return t(n(e).reduce(function(n){return n}))}}},e=function t(){return{value:null,reduce:function(n){return null},inspect:function(n){return console.log("Nothing()")},map:function(n){return t()},ap:function(n){return t()},chain:function(n){return t()}}};return{Just:t,Nothing:e,of:function(n){return n?t(n):e()}}});
