@@ -45,6 +45,14 @@ To get the value outside of Maybe, use the `reduce()` method:
 const sixValue = plusFive.reduce(x => x) // 6
 ```
 
+or the `value()` method:
+
+```javascript
+const sixValue = plusFive.value(0)
+```
+
+This will get the value of the Maybe if it's a `Just` and will return a 0 if it's a `Nothing`.
+
 ## Development
 1. Install [Yarn](https://yarnpkg.com).
 2. Install Rollup.
