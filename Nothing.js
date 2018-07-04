@@ -1,7 +1,7 @@
 const Nothing = () => ({
-  value: null,
+  value: v => v,
   reduce: _ => null,
-  inspect: _ => console.log(`Nothing`),
+  inspect: _ => console.log(`Nothing`) || Nothing(),
   map: _ => Nothing(), 
   ap: _ => Nothing(),
   chain: _ => Nothing()
