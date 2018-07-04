@@ -23,7 +23,7 @@ import Maybe from '@johnpaulada/maybe'
 
 On the browser:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@johnpaulada/maybe@2.1.2/maybe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@johnpaulada/maybe@3.0.0/maybe.min.js"></script>
 ```
 
 ### Using the library
@@ -60,7 +60,9 @@ This will get the value of the Maybe if it's a `Just` and will return a 0 if it'
 3. Running `rollup -c` will build the library.
 
 ## Roadmap
-1. Lazy Evaluation
+- [ ] Lazy Evaluation
+- [ ] Example for `ap`
+- [ ] Example for `branch`
 
 ## License
 MIT
