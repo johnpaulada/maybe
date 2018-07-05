@@ -4,7 +4,7 @@ import Just from './Just'
 import type { MaybeType } from './types'
 
 const Nothing = () : MaybeType => ({
-  value: (v: any) : any => v,
+  value: <T>(v: T) : T => v,
   reduce: () : null => null,
   inspect: () : MaybeType => console.log(`Nothing`) || Nothing(),
   map: () : MaybeType => Nothing(),

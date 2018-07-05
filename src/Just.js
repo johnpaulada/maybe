@@ -2,8 +2,8 @@
 
 import type { MaybeType, ToMaybe } from './types'
 
-const Just = (x: any) : MaybeType => ({
-  value: () : any => x,
+const Just = <T>(x: T) : MaybeType => ({
+  value: () : T => x,
   reduce: (f: Function) : any => f(x),
   inspect: (f: Function) : MaybeType => console.log(`Just(${f(x)})`) || Just(f(x)),
   map: (f: Function) : MaybeType => Just(f(x)),
