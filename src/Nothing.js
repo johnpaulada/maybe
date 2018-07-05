@@ -14,7 +14,7 @@ type MaybeType = {
 
 const Nothing = () : MaybeType => ({
   value: (v: any) : any => v,
-  reduce: () : any => null,
+  reduce: () : null => null,
   inspect: () : MaybeType => console.log(`Nothing`) || Nothing(),
   map: () : MaybeType => Nothing(),
   ap: () : MaybeType => Nothing(),
