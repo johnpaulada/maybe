@@ -2,7 +2,7 @@ import babel from 'rollup-plugin-babel';
 import uglify from 'rollup-plugin-uglify-es';
 
 export default {
-  input: 'Maybe.js',
+  input: 'src/Maybe.js',
   output: [
     {
       file: 'index.js',

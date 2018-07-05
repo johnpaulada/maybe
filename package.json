@@ -23,6 +23,8 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.75.0",
     "rollup-plugin-babel": "^3.0.5",
     "rollup-plugin-uglify-es": "^0.0.1"
   }
