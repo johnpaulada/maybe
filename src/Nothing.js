@@ -2,7 +2,7 @@
 
 import Just from './Just'
 
-type MaybeType = {
+type MaybeType = {|
   value: Function,
   reduce: Function,
   inspect: Function,
@@ -10,7 +10,7 @@ type MaybeType = {
   ap: Function,
   chain: Function,
   branch: Function
-}
+|}
 
 const Nothing = () : MaybeType => ({
   value: (v: any) : any => v,

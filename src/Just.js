@@ -1,6 +1,6 @@
 // @flow
 
-type MaybeType = {
+type MaybeType = {|
   value: Function,
   reduce: Function,
   inspect: Function,
@@ -8,7 +8,7 @@ type MaybeType = {
   ap: Function,
   chain: Function,
   branch: Function
-}
+|}
 
 type ToMaybe = any => MaybeType
 
