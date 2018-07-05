@@ -1,16 +1,6 @@
 // @flow
 
-type MaybeType = {|
-  value: Function,
-  reduce: Function,
-  inspect: Function,
-  map: Function,
-  ap: Function,
-  chain: Function,
-  branch: Function
-|}
-
-type ToMaybe = any => MaybeType
+import type { MaybeType, ToMaybe } from './types'
 
 const Just = (x: any) : MaybeType => ({
   value: () : any => x,

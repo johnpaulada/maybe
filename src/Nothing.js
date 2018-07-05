@@ -1,16 +1,7 @@
 // @flow
 
 import Just from './Just'
-
-type MaybeType = {|
-  value: Function,
-  reduce: Function,
-  inspect: Function,
-  map: Function,
-  ap: Function,
-  chain: Function,
-  branch: Function
-|}
+import type { MaybeType } from './types'
 
 const Nothing = () : MaybeType => ({
   value: (v: any) : any => v,

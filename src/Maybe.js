@@ -3,23 +3,7 @@
 import Just from './Just'
 import Nothing from './Nothing'
 
-type MaybeType = {|
-  value: Function,
-  reduce: Function,
-  inspect: Function,
-  map: Function,
-  ap: Function,
-  chain: Function,
-  branch: Function
-|}
-
-type ToMaybe = any => MaybeType
-
-type LibType = {|
-  Just : ToMaybe,
-  Nothing : ToMaybe,
-  of: ToMaybe
-|}
+import type { MaybeType, ToMaybe, LibType } from './types'
 
 const Maybe : LibType = {
   Just,
