@@ -4,7 +4,7 @@
   "description": "A simple Maybe implementation in JavaScript.",
   "main": "index.js",
   "module": "index.es.js",
-  "browser": "index.min.js",
+  "browser": "maybe.min.js",
   "repository": {
     "type": "Github",
     "url": "https://github.com/johnpaulada/maybe"
