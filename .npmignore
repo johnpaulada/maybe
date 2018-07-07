@@ -1,7 +1,4 @@
 node_modules/
-README.md
 rollup.config.js
 .babelrc
-Just.js
-Maybe.js
-Nothing.js
+src/
